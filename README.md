@@ -1,6 +1,6 @@
 # portfolio
 I did an example using ReactJS and NodeJS.
-I used some frameworks like:
+I used some technologies/frameworks like:
 * NodeJS to make a simple API to simulate any data.
 * Socket.IO to REAL-TIME ENGINE".To see it working,  open another browser and go in "Frameworks" sector and click in "Approve/Decline".
 * Redux to a predictable state container. You can use Redux DevTools to see it working. 
