@@ -1,9 +1,11 @@
 # portfolio
 I did an example using ReactJS and NodeJS.
 I used some frameworks like:
-* ChartJS for Charts
-* Socket.IO to REAL-TIME ENGINE
-
+* NodeJS to make a simple API to simulate any data.
+* Socket.IO to REAL-TIME ENGINE".To see it working,  open another browser and go in "Frameworks" sector and click in "Approve/Decline".
+* Redux to a predictable state container. You can use Redux DevTools to see it working. 
+* ChartJS for Charts.
+* React-Semantic-UI to create beautiful and responsive layouts.
 
 # Install API Server
 
