@@ -1,5 +1,9 @@
 # portfolio
-t
+I did an example using ReactJS and NodeJS.
+I used some frameworks like:
+*ChartJS for Charts
+*Socket.IO to REAL-TIME ENGINE
+
 
 # Install API Server
 
