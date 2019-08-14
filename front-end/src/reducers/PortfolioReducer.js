@@ -25,10 +25,6 @@ const INITIAL_STATE = {
     ,InformationEntity
 }
 
-
-
-
-
 export default (state= INITIAL_STATE,action)=>{
     switch(action.type){
 
@@ -75,8 +71,6 @@ export default (state= INITIAL_STATE,action)=>{
                 
         case PORTFOLIO_FRAMEWORKS_REMOVE:
                 return { ...state, frameworks: [...state.frameworks.filter(c => action.payload !== c.id)] }
-
-  
 
         case PORTFOLIO_INFORMATION_CHANGE:
                     return { ...state, InformationEntity: { ...state.InformationEntity, [action.field]: action.payload } }
