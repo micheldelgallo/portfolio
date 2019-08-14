@@ -26,10 +26,7 @@ export const portfolioListAction = () => (dispatch) =>
             dispatch({type: PORTFOLIO_PROJECTS_LIST, payload: dados.projects})
             dispatch({type: PORTFOLIO_INFORMATION_CHANGE, field: "professional", payload: dados.professional})
             dispatch({type: PORTFOLIO_INFORMATION_CHANGE, field: "personal", payload: dados.personal})
-            
             dispatch({type: PORTFOLIO_ISLOADING, payload: false})
-            
-
             resolve([])
         })
         
@@ -40,14 +37,11 @@ export const portfolioFrameworksListAction = (datafromsocket) => (dispatch) =>
     new Promise(function (resolve, reject) {
         dispatch({type: PORTFOLIO_FRAMEWORKS_LIST, payload: datafromsocket})
         resolve([])
-    
     }
 )
 
 export const portfolioFrameworkSaveAction = (entity,act) => (dispatch) =>
     new Promise(function (resolve, reject) {
-
-      
         dispatch({type: (act===1?PORTFOLIO_FRAMEWORKS_ISAPPROVING:PORTFOLIO_FRAMEWORKS_ISDECLINING), id: entity.id, payload:true})
        
         Api.postFramework(entity).then(dados=>{
@@ -64,7 +58,6 @@ export const portfolioFrameworksRemoveAction = (entity,) => (dispatch) =>
         resolve([])
     }
 )
-
 
 export const portfolioInformationChangeAction = (event) => {
     return {
