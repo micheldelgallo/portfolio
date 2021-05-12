@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "html-react-parser": "^0.9.1",
     "pure-react-carousel": "^1.21.1",
     "react": "^16.8.6",
